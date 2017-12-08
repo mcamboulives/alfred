@@ -34,6 +34,7 @@
       <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_StFmINwkEeeMKbahavXfTw" name="ActionExecutionSpecification2" covered="_0lpG4NwiEeeMKbahavXfTw" finish="_TtFqkNwkEeeMKbahavXfTw" start="_u6wD0NwmEeeMKbahavXfTw"/>
       <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_KclIgNwkEeeMKbahavXfTw" name="ActionExecutionSpecification1" covered="_zjTgINwiEeeMKbahavXfTw" finish="_KclvkdwkEeeMKbahavXfTw" start="_KclvkNwkEeeMKbahavXfTw"/>
       <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_V_IeUNwnEeeMKbahavXfTw" name="ActionExecutionSpecification4" covered="_0lpG4NwiEeeMKbahavXfTw" finish="_V_JscNwnEeeMKbahavXfTw" start="_V_JFYNwnEeeMKbahavXfTw"/>
+      <fragment xmi:type="uml:InteractionUse" xmi:id="_haA7UNwpEeeMKbahavXfTw" name="InteractionUse1" refersTo="_616t8NwpEeeMKbahavXfTw"/>
       <message xmi:type="uml:Message" xmi:id="_tbMc8NwjEeeMKbahavXfTw" name="Message1" messageSort="createMessage" receiveEvent="_tbNrENwjEeeMKbahavXfTw" sendEvent="_tbNEANwjEeeMKbahavXfTw"/>
       <message xmi:type="uml:Message" xmi:id="_TtFDgNwkEeeMKbahavXfTw" name="Accès au menu des prévisions" messageSort="createMessage" receiveEvent="_TtFqkdwkEeeMKbahavXfTw" sendEvent="_TtFqkNwkEeeMKbahavXfTw"/>
       <message xmi:type="uml:Message" xmi:id="_u6vcwNwmEeeMKbahavXfTw" name="Message de réussite" messageSort="reply" receiveEvent="_u6wq4NwmEeeMKbahavXfTw" sendEvent="_u6wD0NwmEeeMKbahavXfTw"/>
@@ -101,6 +102,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_spHnINwgEeeMKbahavXfTw" name="Afficher la prevision  du ration production/consommation" classifierBehavior="__t7C4NwiEeeMKbahavXfTw">
     <ownedBehavior xmi:type="uml:Activity" xmi:id="__t7C4NwiEeeMKbahavXfTw" name="Activité prod/conso"/>
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_616t8NwpEeeMKbahavXfTw" name="Prevision ratio prod/cons"/>
     <extend xmi:type="uml:Extend" xmi:id="_P7KYcNwhEeeMKbahavXfTw" extendedCase="_YNBdwNwdEeeMKbahavXfTw" extensionLocation="_P7KYcdwhEeeMKbahavXfTw"/>
     <include xmi:type="uml:Include" xmi:id="_YgPX4NwhEeeMKbahavXfTw" addition="_e6XYINwgEeeMKbahavXfTw"/>
     <include xmi:type="uml:Include" xmi:id="_ZxVzYNwhEeeMKbahavXfTw" addition="_h48pINwgEeeMKbahavXfTw"/>

@@ -370,6 +370,13 @@
           <element xmi:type="uml:Lifeline" href="alfred2.uml#_0lpG4NwiEeeMKbahavXfTw"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lsxQdwiEeeMKbahavXfTw" x="374" y="10" width="100" height="832"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_hak8ANwpEeeMKbahavXfTw" type="InteractionUse_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_hak8A9wpEeeMKbahavXfTw" type="InteractionUse_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_hak8BNwpEeeMKbahavXfTw" type="InteractionUse_TypeLabel"/>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_hak8AdwpEeeMKbahavXfTw" diagramLink="_7tPXgNwpEeeMKbahavXfTw"/>
+          <element xmi:type="uml:InteractionUse" href="alfred2.uml#_haA7UNwpEeeMKbahavXfTw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hak8AtwpEeeMKbahavXfTw" x="14" y="456" width="741" height="61"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m-RSRNwiEeeMKbahavXfTw"/>
       </children>
       <element xmi:type="uml:Interaction" href="alfred2.uml#_j0gE8NwiEeeMKbahavXfTw"/>
@@ -468,5 +475,10 @@
       <owner xmi:type="uml:UseCase" href="alfred2.uml#_spHnINwgEeeMKbahavXfTw"/>
     </styles>
     <element xmi:type="uml:Activity" href="alfred2.uml#__t7C4NwiEeeMKbahavXfTw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_7tPXgNwpEeeMKbahavXfTw" type="PapyrusUMLSequenceDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_7tPXgdwpEeeMKbahavXfTw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_7tPXgtwpEeeMKbahavXfTw"/>
+    <element xmi:type="uml:InteractionUse" href="alfred2.uml#_haA7UNwpEeeMKbahavXfTw"/>
   </notation:Diagram>
 </xmi:XMI>
