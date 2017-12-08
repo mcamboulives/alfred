@@ -340,6 +340,55 @@
     <children xmi:type="notation:Shape" xmi:id="_m-RSQdwiEeeMKbahavXfTw" type="Interaction_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_m-RSQtwiEeeMKbahavXfTw" type="Interaction_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_m-RSQ9wiEeeMKbahavXfTw" type="Interaction_SubfragmentCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_KCUxQNwrEeeMKbahavXfTw" type="CombinedFragment_Shape">
+          <children xmi:type="notation:BasicCompartment" xmi:id="_KCVYUNwrEeeMKbahavXfTw" type="CombinedFragment_SubfragmentCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_KCVYVNwrEeeMKbahavXfTw" type="InteractionOperand_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_KCVYVtwrEeeMKbahavXfTw" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="alfred2.uml#_KCRG4dwrEeeMKbahavXfTw"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KCVYV9wrEeeMKbahavXfTw" x="8" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="alfred2.uml#_KCRG4NwrEeeMKbahavXfTw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KCVYVdwrEeeMKbahavXfTw" width="741" height="100"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_1V6XINwrEeeMKbahavXfTw" type="InteractionOperand_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_1V6XItwrEeeMKbahavXfTw" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="alfred2.uml#_1V1eoNwrEeeMKbahavXfTw"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1V6XI9wrEeeMKbahavXfTw" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="alfred2.uml#_1Ve5UNwrEeeMKbahavXfTw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1V6XIdwrEeeMKbahavXfTw" y="59" width="100" height="176"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_-UfbsNwrEeeMKbahavXfTw" type="InteractionOperand_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_-UfbstwrEeeMKbahavXfTw" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="alfred2.uml#_-UajMNwrEeeMKbahavXfTw"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Ufbs9wrEeeMKbahavXfTw" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="alfred2.uml#_-UZ8INwrEeeMKbahavXfTw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-UfbsdwrEeeMKbahavXfTw" y="276" width="100" height="120"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_S_KT8NwsEeeMKbahavXfTw" type="InteractionOperand_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_S_KT8twsEeeMKbahavXfTw" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="alfred2.uml#_S_ENUdwsEeeMKbahavXfTw"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S_KT89wsEeeMKbahavXfTw" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="alfred2.uml#_S_ENUNwsEeeMKbahavXfTw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S_KT8dwsEeeMKbahavXfTw" y="396" width="100" height="73"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_lkNjgNwsEeeMKbahavXfTw" type="InteractionOperand_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_lkNjgtwsEeeMKbahavXfTw" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="alfred2.uml#_lkHc4NwsEeeMKbahavXfTw"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lkNjg9wsEeeMKbahavXfTw" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="alfred2.uml#_lkG10NwsEeeMKbahavXfTw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lkNjgdwsEeeMKbahavXfTw" y="469" width="100" height="80"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KCVYUdwrEeeMKbahavXfTw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KCVYUtwrEeeMKbahavXfTw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KCVYU9wrEeeMKbahavXfTw"/>
+          </children>
+          <element xmi:type="uml:CombinedFragment" href="alfred2.uml#_KCQf0NwrEeeMKbahavXfTw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KCUxQdwrEeeMKbahavXfTw" x="34" y="416" width="741" height="569"/>
+        </children>
         <children xmi:type="notation:Shape" xmi:id="_zjV8YNwiEeeMKbahavXfTw" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_zjV8YtwiEeeMKbahavXfTw" type="Lifeline_NameLabel"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_zkcvoNwiEeeMKbahavXfTw" type="compartment_shape_display">
@@ -351,7 +400,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kcoy4dwkEeeMKbahavXfTw" x="40" y="66" width="20" height="320"/>
           </children>
           <element xmi:type="uml:Lifeline" href="alfred2.uml#_zjTgINwiEeeMKbahavXfTw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjV8YdwiEeeMKbahavXfTw" x="74" y="10" height="700"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjV8YdwiEeeMKbahavXfTw" x="74" y="10" height="927"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_0lsxQNwiEeeMKbahavXfTw" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_0ltYUNwiEeeMKbahavXfTw" type="Lifeline_NameLabel"/>
@@ -368,14 +417,35 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V_NW0dwnEeeMKbahavXfTw" x="40" y="246" width="20" height="100"/>
           </children>
           <element xmi:type="uml:Lifeline" href="alfred2.uml#_0lpG4NwiEeeMKbahavXfTw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lsxQdwiEeeMKbahavXfTw" x="374" y="10" width="100" height="832"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lsxQdwiEeeMKbahavXfTw" x="374" y="10" width="100" height="927"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_hak8ANwpEeeMKbahavXfTw" type="InteractionUse_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_hak8A9wpEeeMKbahavXfTw" type="InteractionUse_NameLabel"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_hak8BNwpEeeMKbahavXfTw" type="InteractionUse_TypeLabel"/>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_hak8AdwpEeeMKbahavXfTw" diagramLink="_7tPXgNwpEeeMKbahavXfTw"/>
           <element xmi:type="uml:InteractionUse" href="alfred2.uml#_haA7UNwpEeeMKbahavXfTw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hak8AtwpEeeMKbahavXfTw" x="14" y="456" width="741" height="61"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hak8AtwpEeeMKbahavXfTw" x="54" y="456" width="641" height="61"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_A-NP8NwsEeeMKbahavXfTw" type="InteractionUse_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_A-NP89wsEeeMKbahavXfTw" type="InteractionUse_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_A-NP9NwsEeeMKbahavXfTw" type="InteractionUse_TypeLabel"/>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_A-NP8dwsEeeMKbahavXfTw"/>
+          <element xmi:type="uml:InteractionUse" href="alfred2.uml#_A-HwYNwsEeeMKbahavXfTw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A-NP8twsEeeMKbahavXfTw" x="54" y="576" width="661" height="81"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_oGGRcNwsEeeMKbahavXfTw" type="InteractionUse_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_oGGRc9wsEeeMKbahavXfTw" type="InteractionUse_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_oGGRdNwsEeeMKbahavXfTw" type="InteractionUse_TypeLabel"/>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_oGGRcdwsEeeMKbahavXfTw"/>
+          <element xmi:type="uml:InteractionUse" href="alfred2.uml#_oGAK0NwsEeeMKbahavXfTw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oGGRctwsEeeMKbahavXfTw" x="74" y="756" width="681" height="41"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_w4vLwNwsEeeMKbahavXfTw" type="InteractionUse_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_w4vLw9wsEeeMKbahavXfTw" type="InteractionUse_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_w4vLxNwsEeeMKbahavXfTw" type="InteractionUse_TypeLabel"/>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_w4vLwdwsEeeMKbahavXfTw"/>
+          <element xmi:type="uml:InteractionUse" href="alfred2.uml#_w4n3ANwsEeeMKbahavXfTw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w4vLwtwsEeeMKbahavXfTw" x="54" y="876" width="701" height="21"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m-RSRNwiEeeMKbahavXfTw"/>
       </children>
