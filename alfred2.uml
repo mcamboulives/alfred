@@ -37,27 +37,27 @@
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_V_IeUNwnEeeMKbahavXfTw" name="ActionExecutionSpecification4" covered="_0lpG4NwiEeeMKbahavXfTw" finish="_V_JscNwnEeeMKbahavXfTw" start="_V_JFYNwnEeeMKbahavXfTw"/>
         <fragment xmi:type="uml:InteractionUse" xmi:id="_haA7UNwpEeeMKbahavXfTw" name="InteractionUse1" refersTo="_616t8NwpEeeMKbahavXfTw"/>
         <fragment xmi:type="uml:CombinedFragment" xmi:id="_KCQf0NwrEeeMKbahavXfTw" name="CombinedFragment1" interactionOperator="alt">
-          <operand xmi:type="uml:InteractionOperand" xmi:id="_KCRG4NwrEeeMKbahavXfTw" name="InteractionOperand1" covered="_0lpG4NwiEeeMKbahavXfTw _zjTgINwiEeeMKbahavXfTw">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_KCRG4NwrEeeMKbahavXfTw" name="InteractionOperand1" covered="_zjTgINwiEeeMKbahavXfTw _0lpG4NwiEeeMKbahavXfTw">
             <guard xmi:type="uml:InteractionConstraint" xmi:id="_KCRG4dwrEeeMKbahavXfTw" name="guard">
               <specification xmi:type="uml:LiteralString" xmi:id="_e_ZLoNwsEeeMKbahavXfTw" value="energie"/>
             </guard>
           </operand>
-          <operand xmi:type="uml:InteractionOperand" xmi:id="_1Ve5UNwrEeeMKbahavXfTw" name="InteractionOperand2" covered="_0lpG4NwiEeeMKbahavXfTw _zjTgINwiEeeMKbahavXfTw">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_1Ve5UNwrEeeMKbahavXfTw" name="InteractionOperand2" covered="_zjTgINwiEeeMKbahavXfTw _0lpG4NwiEeeMKbahavXfTw">
             <guard xmi:type="uml:InteractionConstraint" xmi:id="_1V1eoNwrEeeMKbahavXfTw" name="guard">
               <specification xmi:type="uml:LiteralString" xmi:id="_hdxSkNwsEeeMKbahavXfTw" value="eau"/>
             </guard>
           </operand>
-          <operand xmi:type="uml:InteractionOperand" xmi:id="_-UZ8INwrEeeMKbahavXfTw" name="InteractionOperand3" covered="_0lpG4NwiEeeMKbahavXfTw _zjTgINwiEeeMKbahavXfTw">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_-UZ8INwrEeeMKbahavXfTw" name="InteractionOperand3" covered="_zjTgINwiEeeMKbahavXfTw _0lpG4NwiEeeMKbahavXfTw">
             <guard xmi:type="uml:InteractionConstraint" xmi:id="_-UajMNwrEeeMKbahavXfTw" name="guard">
               <specification xmi:type="uml:LiteralString" xmi:id="_iZkzgNwsEeeMKbahavXfTw" value="voiture"/>
             </guard>
           </operand>
-          <operand xmi:type="uml:InteractionOperand" xmi:id="_S_ENUNwsEeeMKbahavXfTw" name="InteractionOperand4" covered="_0lpG4NwiEeeMKbahavXfTw _zjTgINwiEeeMKbahavXfTw">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_S_ENUNwsEeeMKbahavXfTw" name="InteractionOperand4" covered="_zjTgINwiEeeMKbahavXfTw _0lpG4NwiEeeMKbahavXfTw">
             <guard xmi:type="uml:InteractionConstraint" xmi:id="_S_ENUdwsEeeMKbahavXfTw" name="guard">
               <specification xmi:type="uml:LiteralString" xmi:id="_jHqokNwsEeeMKbahavXfTw" value="air"/>
             </guard>
           </operand>
-          <operand xmi:type="uml:InteractionOperand" xmi:id="_lkG10NwsEeeMKbahavXfTw" name="InteractionOperand5" covered="_0lpG4NwiEeeMKbahavXfTw _zjTgINwiEeeMKbahavXfTw">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_lkG10NwsEeeMKbahavXfTw" name="InteractionOperand5" covered="_zjTgINwiEeeMKbahavXfTw _0lpG4NwiEeeMKbahavXfTw">
             <guard xmi:type="uml:InteractionConstraint" xmi:id="_lkHc4NwsEeeMKbahavXfTw" name="guard">
               <specification xmi:type="uml:LiteralString" xmi:id="_mVblENwsEeeMKbahavXfTw" value="electricité"/>
             </guard>
@@ -168,7 +168,42 @@
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_A6WgINwrEee8v5gS3zlFyg" name="Refine17" client="_w9xusNwqEee8v5gS3zlFyg" supplier="_bWQzsNwqEee8v5gS3zlFyg"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_B7z9INwrEee8v5gS3zlFyg" name="Refine18" client="_3ay1cNwqEee8v5gS3zlFyg" supplier="_bWQzsNwqEee8v5gS3zlFyg"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_ad_TcNwgEeeMKbahavXfTw" name="Afficher les prévisons sur la qualité de l'air" classifierBehavior="_AUddcNwuEeeMKbahavXfTw">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_lIwhINwtEeeMKbahavXfTw" name="Afficher les prévisions sur la qualité de l'air"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_lIwhINwtEeeMKbahavXfTw" name="Afficher les prévisions sur la qualité de l'air">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_5L30sdwuEee8v5gS3zlFyg" name="" type="_WhUJ4NwdEeeMKbahavXfTw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_GkhQ0NwvEee8v5gS3zlFyg" name="Alfred" coveredBy="_z61jcdwvEee8v5gS3zlFyg _CKeR8dwwEee8v5gS3zlFyg _CKeR8twwEee8v5gS3zlFyg _FQNT0dwwEee8v5gS3zlFyg _KMPI8twwEee8v5gS3zlFyg _Oac10dwwEee8v5gS3zlFyg _Oac10twwEee8v5gS3zlFyg _SJrgodwwEee8v5gS3zlFyg _KNIg0dwwEee8v5gS3zlFyg _KNIg0NwwEee8v5gS3zlFyg _YhaewtwwEee8v5gS3zlFyg _iuA1odwwEee8v5gS3zlFyg _iuA1otwwEee8v5gS3zlFyg _mB1W0NwwEee8v5gS3zlFyg _YjgJcNwwEee8v5gS3zlFyg _z7u7UNwvEee8v5gS3zlFyg"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_H8JyINwvEee8v5gS3zlFyg" name="Résident" coveredBy="_z61jcNwvEee8v5gS3zlFyg _FQNT0twwEee8v5gS3zlFyg _KMPI8dwwEee8v5gS3zlFyg _SJrgotwwEee8v5gS3zlFyg _YhaewdwwEee8v5gS3zlFyg _mB194NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_z61jcNwvEee8v5gS3zlFyg" name="Message1SendEvent" covered="_H8JyINwvEee8v5gS3zlFyg" message="_z6sZgNwvEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_z61jcdwvEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_z6sZgNwvEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CKeR8dwwEee8v5gS3zlFyg" name="Message1SendEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_CKeR8NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CKeR8twwEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_CKeR8NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FQNT0dwwEee8v5gS3zlFyg" name="Message1SendEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_FQNT0NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FQNT0twwEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_H8JyINwvEee8v5gS3zlFyg" message="_FQNT0NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KMPI8dwwEee8v5gS3zlFyg" name="Message1SendEvent" covered="_H8JyINwvEee8v5gS3zlFyg" message="_KMPI8NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KMPI8twwEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_KMPI8NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Oac10dwwEee8v5gS3zlFyg" name="Message1SendEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_Oac10NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Oac10twwEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_Oac10NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SJrgodwwEee8v5gS3zlFyg" name="Message1SendEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_SJrgoNwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SJrgotwwEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_H8JyINwvEee8v5gS3zlFyg" message="_SJrgoNwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_KNIg0dwwEee8v5gS3zlFyg" name="BehaviorExecutionSpecification2Finish" covered="_GkhQ0NwvEee8v5gS3zlFyg" execution="_KNIg0NwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YhaewdwwEee8v5gS3zlFyg" name="Message1SendEvent" covered="_H8JyINwvEee8v5gS3zlFyg" message="_YhaewNwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YhaewtwwEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_YhaewNwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iuA1odwwEee8v5gS3zlFyg" name="Message1SendEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_iuA1oNwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iuA1otwwEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_iuA1oNwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mB1W0NwwEee8v5gS3zlFyg" name="Message1SendEvent" covered="_GkhQ0NwvEee8v5gS3zlFyg" message="_mB0IsNwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mB194NwwEee8v5gS3zlFyg" name="Message1ReceiveEvent" covered="_H8JyINwvEee8v5gS3zlFyg" message="_mB0IsNwwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_z7u7UNwvEee8v5gS3zlFyg" name="BehaviorExecutionSpecification1" covered="_GkhQ0NwvEee8v5gS3zlFyg" finish="_FQNT0dwwEee8v5gS3zlFyg" start="_z61jcdwvEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_KNIg0NwwEee8v5gS3zlFyg" name="BehaviorExecutionSpecification2" covered="_GkhQ0NwvEee8v5gS3zlFyg" finish="_SJrgodwwEee8v5gS3zlFyg" start="_KMPI8twwEee8v5gS3zlFyg"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_YjgJcNwwEee8v5gS3zlFyg" name="BehaviorExecutionSpecification3" covered="_GkhQ0NwvEee8v5gS3zlFyg" finish="_mB1W0NwwEee8v5gS3zlFyg" start="_YhaewtwwEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_z6sZgNwvEee8v5gS3zlFyg" name="Consulter le taux de CO2" receiveEvent="_z61jcdwvEee8v5gS3zlFyg" sendEvent="_z61jcNwvEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_CKeR8NwwEee8v5gS3zlFyg" name="consultation capteur" messageSort="asynchCall" receiveEvent="_CKeR8twwEee8v5gS3zlFyg" sendEvent="_CKeR8dwwEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_FQNT0NwwEee8v5gS3zlFyg" name="Affichage taux de CO2" messageSort="reply" receiveEvent="_FQNT0twwEee8v5gS3zlFyg" sendEvent="_FQNT0dwwEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_KMPI8NwwEee8v5gS3zlFyg" name="Consulter le taux d'humidité" receiveEvent="_KMPI8twwEee8v5gS3zlFyg" sendEvent="_KMPI8dwwEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_Oac10NwwEee8v5gS3zlFyg" name="consultation capteur" messageSort="asynchCall" receiveEvent="_Oac10twwEee8v5gS3zlFyg" sendEvent="_Oac10dwwEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_SJrgoNwwEee8v5gS3zlFyg" name="Affichage taux d'humidité" messageSort="reply" receiveEvent="_SJrgotwwEee8v5gS3zlFyg" sendEvent="_SJrgodwwEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_YhaewNwwEee8v5gS3zlFyg" name="Consulter le taux de particules fines" receiveEvent="_YhaewtwwEee8v5gS3zlFyg" sendEvent="_YhaewdwwEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_iuA1oNwwEee8v5gS3zlFyg" name="consultation capteur" messageSort="asynchCall" receiveEvent="_iuA1otwwEee8v5gS3zlFyg" sendEvent="_iuA1odwwEee8v5gS3zlFyg"/>
+        <message xmi:type="uml:Message" xmi:id="_mB0IsNwwEee8v5gS3zlFyg" name="Affichage taux de particules fines" messageSort="reply" receiveEvent="_mB194NwwEee8v5gS3zlFyg" sendEvent="_mB1W0NwwEee8v5gS3zlFyg"/>
+      </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_AUddcNwuEeeMKbahavXfTw" name="Interaction1"/>
       <extend xmi:type="uml:Extend" xmi:id="_OBFRYNwhEeeMKbahavXfTw" extendedCase="_YNBdwNwdEeeMKbahavXfTw" extensionLocation="_OBF4cNwhEeeMKbahavXfTw"/>
     </packagedElement>
