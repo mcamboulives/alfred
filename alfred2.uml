@@ -7,7 +7,14 @@
     <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
   </packageImport>
   <packagedElement xmi:type="uml:Actor" xmi:id="_WhUJ4NwdEeeMKbahavXfTw" name="Resident"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_YNBdwNwdEeeMKbahavXfTw" name="Consulter les prévisions pour la journée / pour la semaine"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YNBdwNwdEeeMKbahavXfTw" name="Consulter les prévisions pour la journée et la semaine">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_C6FHwNwhEeeMKbahavXfTw" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OBF4cNwhEeeMKbahavXfTw" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_PLw70NwhEeeMKbahavXfTw" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_P7KYcdwhEeeMKbahavXfTw" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QghIQdwhEeeMKbahavXfTw" name="ExtensionPoint5"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_RKi8sdwhEeeMKbahavXfTw" name="ExtensionPoint6"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_agWyUNwdEeeMKbahavXfTw" name="Consulter les indicateurs détaillées en instantané"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_bR6yINwdEeeMKbahavXfTw" name="Consulter les indicateurs détaillées sous forme de graphique"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_b8Ja4NwdEeeMKbahavXfTw" name="Consulter les indicateurs de santé de la maison"/>
@@ -46,6 +53,22 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_pDqqwtwdEeeMKbahavXfTw" name="consulter les conseils" type="_gQtnYNwdEeeMKbahavXfTw" association="_pDqDsNwdEeeMKbahavXfTw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_pDqqw9wdEeeMKbahavXfTw" name="resident" type="_WhUJ4NwdEeeMKbahavXfTw" association="_pDqDsNwdEeeMKbahavXfTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ad_TcNwgEeeMKbahavXfTw" name="Afficher les prévisons sur la qualité de l'air">
+    <extend xmi:type="uml:Extend" xmi:id="_OBFRYNwhEeeMKbahavXfTw" extendedCase="_YNBdwNwdEeeMKbahavXfTw" extensionLocation="_OBF4cNwhEeeMKbahavXfTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_e6XYINwgEeeMKbahavXfTw" name="Afficher les prévisons sur la consomation électrique"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_h48pINwgEeeMKbahavXfTw" name="Afficher la production d’énergie prévue"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_keiLUNwgEeeMKbahavXfTw" name="Afficher l'heure de fin de chargement de la voiture">
+    <extend xmi:type="uml:Extend" xmi:id="_QghIQNwhEeeMKbahavXfTw" extendedCase="_YNBdwNwdEeeMKbahavXfTw" extensionLocation="_QghIQdwhEeeMKbahavXfTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_oWla8NwgEeeMKbahavXfTw" name="Afficher l'heure a laquelle l'eau sera assez chaude pour une douche">
+    <extend xmi:type="uml:Extend" xmi:id="_RKi8sNwhEeeMKbahavXfTw" extendedCase="_YNBdwNwdEeeMKbahavXfTw" extensionLocation="_RKi8sdwhEeeMKbahavXfTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_spHnINwgEeeMKbahavXfTw" name="Afficher la prevision  du ration production/consommation">
+    <extend xmi:type="uml:Extend" xmi:id="_P7KYcNwhEeeMKbahavXfTw" extendedCase="_YNBdwNwdEeeMKbahavXfTw" extensionLocation="_P7KYcdwhEeeMKbahavXfTw"/>
+    <include xmi:type="uml:Include" xmi:id="_YgPX4NwhEeeMKbahavXfTw" addition="_e6XYINwgEeeMKbahavXfTw"/>
+    <include xmi:type="uml:Include" xmi:id="_ZxVzYNwhEeeMKbahavXfTw" addition="_h48pINwgEeeMKbahavXfTw"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_K7gkYNwdEeeMKbahavXfTw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K7hLcNwdEeeMKbahavXfTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
