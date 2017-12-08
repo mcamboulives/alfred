@@ -65,7 +65,8 @@
         </fragment>
         <fragment xmi:type="uml:InteractionUse" xmi:id="_A-HwYNwsEeeMKbahavXfTw" name="InteractionUse2" refersTo="_Qp2CYNwsEeeMKbahavXfTw"/>
         <fragment xmi:type="uml:InteractionUse" xmi:id="_oGAK0NwsEeeMKbahavXfTw" name="InteractionUse3" refersTo="_vShb4NwsEeeMKbahavXfTw"/>
-        <fragment xmi:type="uml:InteractionUse" xmi:id="_w4n3ANwsEeeMKbahavXfTw" name="InteractionUse4"/>
+        <fragment xmi:type="uml:InteractionUse" xmi:id="_w4n3ANwsEeeMKbahavXfTw" name="InteractionUse4" refersTo="_lIwhINwtEeeMKbahavXfTw"/>
+        <fragment xmi:type="uml:InteractionUse" xmi:id="_oDz9ANwtEeeMKbahavXfTw" name="InteractionUse5" refersTo="_xdQ_sNwtEeeMKbahavXfTw"/>
         <message xmi:type="uml:Message" xmi:id="_tbMc8NwjEeeMKbahavXfTw" name="Message1" messageSort="createMessage" receiveEvent="_tbNrENwjEeeMKbahavXfTw" sendEvent="_tbNEANwjEeeMKbahavXfTw"/>
         <message xmi:type="uml:Message" xmi:id="_TtFDgNwkEeeMKbahavXfTw" name="Accès au menu des prévisions" messageSort="createMessage" receiveEvent="_TtFqkdwkEeeMKbahavXfTw" sendEvent="_TtFqkNwkEeeMKbahavXfTw"/>
         <message xmi:type="uml:Message" xmi:id="_u6vcwNwmEeeMKbahavXfTw" name="Message de réussite" messageSort="reply" receiveEvent="_u6wq4NwmEeeMKbahavXfTw" sendEvent="_u6wD0NwmEeeMKbahavXfTw"/>
@@ -166,10 +167,14 @@
     <packagedElement xmi:type="uml:Abstraction" xmi:id="__u6nwNwqEee8v5gS3zlFyg" name="Refine16" client="_rX3PENwqEee8v5gS3zlFyg" supplier="_bWQzsNwqEee8v5gS3zlFyg"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_A6WgINwrEee8v5gS3zlFyg" name="Refine17" client="_w9xusNwqEee8v5gS3zlFyg" supplier="_bWQzsNwqEee8v5gS3zlFyg"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_B7z9INwrEee8v5gS3zlFyg" name="Refine18" client="_3ay1cNwqEee8v5gS3zlFyg" supplier="_bWQzsNwqEee8v5gS3zlFyg"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ad_TcNwgEeeMKbahavXfTw" name="Afficher les prévisons sur la qualité de l'air">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ad_TcNwgEeeMKbahavXfTw" name="Afficher les prévisons sur la qualité de l'air" classifierBehavior="_AUddcNwuEeeMKbahavXfTw">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_lIwhINwtEeeMKbahavXfTw" name="Afficher les prévisions sur la qualité de l'air"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_AUddcNwuEeeMKbahavXfTw" name="Interaction1"/>
       <extend xmi:type="uml:Extend" xmi:id="_OBFRYNwhEeeMKbahavXfTw" extendedCase="_YNBdwNwdEeeMKbahavXfTw" extensionLocation="_OBF4cNwhEeeMKbahavXfTw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_e6XYINwgEeeMKbahavXfTw" name="Afficher les prévisons sur la consomation électrique"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e6XYINwgEeeMKbahavXfTw" name="Afficher les prévisons sur la consomation électrique">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_xdQ_sNwtEeeMKbahavXfTw" name="Afficher les previsions de consomamtion electrique"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_h48pINwgEeeMKbahavXfTw" name="Afficher la production d’énergie prévue"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_keiLUNwgEeeMKbahavXfTw" name="Afficher l'heure de fin de chargement de la voiture">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vShb4NwsEeeMKbahavXfTw" name="Afficher l'heure de fin de chargement de la voiture"/>

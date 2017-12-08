@@ -2083,7 +2083,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kcoy4dwkEeeMKbahavXfTw" x="40" y="66" width="20" height="320"/>
           </children>
           <element xmi:type="uml:Lifeline" href="alfred2.uml#_zjTgINwiEeeMKbahavXfTw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjV8YdwiEeeMKbahavXfTw" x="74" y="10" height="927"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjV8YdwiEeeMKbahavXfTw" x="74" y="10" height="967"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_0lsxQNwiEeeMKbahavXfTw" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_0ltYUNwiEeeMKbahavXfTw" type="Lifeline_NameLabel"/>
@@ -2100,7 +2100,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V_NW0dwnEeeMKbahavXfTw" x="40" y="246" width="20" height="100"/>
           </children>
           <element xmi:type="uml:Lifeline" href="alfred2.uml#_0lpG4NwiEeeMKbahavXfTw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lsxQdwiEeeMKbahavXfTw" x="374" y="10" width="100" height="927"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lsxQdwiEeeMKbahavXfTw" x="374" y="10" width="100" height="967"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_hak8ANwpEeeMKbahavXfTw" type="InteractionUse_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_hak8A9wpEeeMKbahavXfTw" type="InteractionUse_NameLabel"/>
@@ -2126,9 +2126,16 @@
         <children xmi:type="notation:Shape" xmi:id="_w4vLwNwsEeeMKbahavXfTw" type="InteractionUse_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_w4vLw9wsEeeMKbahavXfTw" type="InteractionUse_NameLabel"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_w4vLxNwsEeeMKbahavXfTw" type="InteractionUse_TypeLabel"/>
-          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_w4vLwdwsEeeMKbahavXfTw"/>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_w4vLwdwsEeeMKbahavXfTw" diagramLink="_eOIRUNwtEeeMKbahavXfTw"/>
           <element xmi:type="uml:InteractionUse" href="alfred2.uml#_w4n3ANwsEeeMKbahavXfTw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w4vLwtwsEeeMKbahavXfTw" x="54" y="876" width="701" height="21"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w4vLwtwsEeeMKbahavXfTw" x="54" y="856" width="701" height="21"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_oD6qsNwtEeeMKbahavXfTw" type="InteractionUse_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_oD7RwNwtEeeMKbahavXfTw" type="InteractionUse_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_oD7RwdwtEeeMKbahavXfTw" type="InteractionUse_TypeLabel"/>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_oD6qsdwtEeeMKbahavXfTw"/>
+          <element xmi:type="uml:InteractionUse" href="alfred2.uml#_oDz9ANwtEeeMKbahavXfTw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oD6qstwtEeeMKbahavXfTw" x="54" y="936" width="681" height="21"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m-RSRNwiEeeMKbahavXfTw"/>
       </children>
@@ -2233,5 +2240,26 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_7tPXgdwpEeeMKbahavXfTw" name="diagram_compatibility_version" stringValue="1.3.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_7tPXgtwpEeeMKbahavXfTw"/>
     <element xmi:type="uml:InteractionUse" href="alfred2.uml#_haA7UNwpEeeMKbahavXfTw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_eOIRUNwtEeeMKbahavXfTw" type="PapyrusUMLSequenceDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_eOIRUdwtEeeMKbahavXfTw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_eOIRUtwtEeeMKbahavXfTw"/>
+    <element xmi:type="uml:InteractionUse" href="alfred2.uml#_w4n3ANwsEeeMKbahavXfTw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_As818NwuEeeMKbahavXfTw" type="PapyrusUMLSequenceDiagram" name="prev" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_As818dwuEeeMKbahavXfTw" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_As818twuEeeMKbahavXfTw" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_As8189wuEeeMKbahavXfTw" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_As819NwuEeeMKbahavXfTw"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="alfred2.uml#_AUddcNwuEeeMKbahavXfTw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_As819dwuEeeMKbahavXfTw"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_As819twuEeeMKbahavXfTw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_As8199wuEeeMKbahavXfTw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_As81-NwuEeeMKbahavXfTw" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
+      <owner xmi:type="uml:UseCase" href="alfred2.uml#_ad_TcNwgEeeMKbahavXfTw"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="alfred2.uml#_AUddcNwuEeeMKbahavXfTw"/>
   </notation:Diagram>
 </xmi:XMI>
