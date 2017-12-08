@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ui1rgNqkEeehAcz9Z7orlg" name="alfred"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ui1rgNqkEeehAcz9Z7orlg" name="alfred">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_F3uMUNwbEeeMKbahavXfTw" name="Résident"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KbujANwbEeeMKbahavXfTw" name="Consulter les prévisions pour la journée / pour la semaine"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ULNgENwbEeeMKbahavXfTw" memberEnd="_ULkscNwbEeeMKbahavXfTw _ULlTgNwbEeeMKbahavXfTw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ULdXsNwbEeeMKbahavXfTw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ULdXsdwbEeeMKbahavXfTw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ULkscNwbEeeMKbahavXfTw" name="consulter les prévisions pour la journée / pour la semaine" type="_KbujANwbEeeMKbahavXfTw" association="_ULNgENwbEeeMKbahavXfTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ULlTgNwbEeeMKbahavXfTw" name="résident" type="_F3uMUNwbEeeMKbahavXfTw" association="_ULNgENwbEeeMKbahavXfTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZEDeUNwbEeeMKbahavXfTw" name="Consulter les indicateurs détaillées en instantané"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ejBocNwbEeeMKbahavXfTw" name="Consulter les indicateurs détaillées sous forme de graphique"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iArbENwbEeeMKbahavXfTw" memberEnd="_iAsCItwbEeeMKbahavXfTw _iAspMNwbEeeMKbahavXfTw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iAsCINwbEeeMKbahavXfTw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iAsCIdwbEeeMKbahavXfTw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iAsCItwbEeeMKbahavXfTw" name="consulter les indicateurs détaillées en instantané" type="_ZEDeUNwbEeeMKbahavXfTw" association="_iArbENwbEeeMKbahavXfTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iAspMNwbEeeMKbahavXfTw" name="résident" type="_F3uMUNwbEeeMKbahavXfTw" association="_iArbENwbEeeMKbahavXfTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_isjCkNwbEeeMKbahavXfTw" memberEnd="_isjpotwbEeeMKbahavXfTw _iskQsNwbEeeMKbahavXfTw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_isjpoNwbEeeMKbahavXfTw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_isjpodwbEeeMKbahavXfTw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_isjpotwbEeeMKbahavXfTw" name="consulter les indicateurs détaillées sous forme de graphique" type="_ejBocNwbEeeMKbahavXfTw" association="_isjCkNwbEeeMKbahavXfTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iskQsNwbEeeMKbahavXfTw" type="_F3uMUNwbEeeMKbahavXfTw" association="_isjCkNwbEeeMKbahavXfTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_oMrDQNwbEeeMKbahavXfTw" name="Consulter les indicateurs de santé de la maison"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qs3vINwbEeeMKbahavXfTw" name="Consulter les conseils"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-5Qv8NwbEeeMKbahavXfTw" memberEnd="_-5RXAdwbEeeMKbahavXfTw _-5RXAtwbEeeMKbahavXfTw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-5Qv8dwbEeeMKbahavXfTw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-5RXANwbEeeMKbahavXfTw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-5RXAdwbEeeMKbahavXfTw" name="consulter les indicateurs de santé de la maison" type="_oMrDQNwbEeeMKbahavXfTw" association="_-5Qv8NwbEeeMKbahavXfTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-5RXAtwbEeeMKbahavXfTw" name="résident" type="_F3uMUNwbEeeMKbahavXfTw" association="_-5Qv8NwbEeeMKbahavXfTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__4VAQNwbEeeMKbahavXfTw" memberEnd="__4VnUtwbEeeMKbahavXfTw __4VnU9wbEeeMKbahavXfTw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__4VnUNwbEeeMKbahavXfTw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__4VnUdwbEeeMKbahavXfTw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__4VnUtwbEeeMKbahavXfTw" name="consulter les conseils" type="_qs3vINwbEeeMKbahavXfTw" association="__4VAQNwbEeeMKbahavXfTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__4VnU9wbEeeMKbahavXfTw" name="résident" type="_F3uMUNwbEeeMKbahavXfTw" association="__4VAQNwbEeeMKbahavXfTw"/>
+  </packagedElement>
+</uml:Model>
